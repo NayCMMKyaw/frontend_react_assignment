@@ -1,4 +1,5 @@
 import Card from './components/Card';
+import List from './components/List';
 
 function App() {
   const user = {
@@ -8,10 +9,10 @@ function App() {
   }
   return (
     <div className="App">
-      <div className="Card">
-        <Card user = {user} />
+      <div>
+        <Card user={user} />
       </div>
-      
+      <List />
     </div>
   );
 }

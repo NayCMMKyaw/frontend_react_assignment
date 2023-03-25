@@ -1,4 +1,4 @@
-.Card{
+.card-container{
     width: 200px;
     height: 200px;
     border: 1px lightgreen solid;
@@ -7,7 +7,7 @@
     margin: 10px;
     transition: background 1s, color 1s;
 }
-.Card:hover{
+.card-container:hover{
     background-color: lightgreen;
     color: black;
 }
