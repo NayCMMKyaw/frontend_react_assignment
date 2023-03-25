@@ -1,5 +1,6 @@
 import Card from './components/Card';
 import List from './components/List';
+import TypeMe from './components/TypeMe';
 
 function App() {
   const user = {
@@ -13,6 +14,7 @@ function App() {
         <Card user={user} />
       </div>
       <List />
+      <TypeMe />
     </div>
   );
 }
